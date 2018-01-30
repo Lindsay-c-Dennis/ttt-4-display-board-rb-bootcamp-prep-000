@@ -175,14 +175,14 @@ describe "#display_board in 'lib/display_board.rb" do
       #expect(true).to be(true)
     end
 
-  it 'prints an entire board full of Os' do
+    it 'prints an entire board full of Os' do
       # Can you copy the syntax of the tests above to write a test for a board
       # entirely filled with Os?
 
       # Hint: You should be able to copy the code in the previous it example
       # and make a few simple edits to convert the previous example to this
       # example's situation.
-      it 'prints an entire board full of Os' do 
+      
         board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
         
         output = capture_puts{ display_board(board) } if defined?(display_board)
